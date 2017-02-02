@@ -15,7 +15,7 @@ class MongoStore(object):
         return result.inserted_ids
 
 
-store=MongoStore('mongodb://localhost:27017/')
+store=MongoStore('mongodb://super:super@localhost:27017/')
 
 post={"author": "Mike",
       "text": "My first blog post!",
